@@ -17,8 +17,12 @@
       <pubDate>Mon, 17 Feb 2020 13:10:11 -0600</pubDate>
       
       <guid>https://goertzenator.github.io/posts/my-first-post/</guid>
-      <description> just some text
-and a title subtitle? </description>
+      <description>just some text
+and a title subtitle? inline code
+ python Another code block
+  javascript var s = &amp;ldquo;JavaScript syntax highlighting&amp;rdquo;; alert(s);
+  python s = &amp;ldquo;Python syntax highlighting&amp;rdquo; print s ```
+{{ template &amp;ldquo;_internal/disqus.html&amp;rdquo; . }}</description>
     </item>
     
   </channel>
